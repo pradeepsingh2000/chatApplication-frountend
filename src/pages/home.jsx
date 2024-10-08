@@ -116,7 +116,7 @@ export default function Home() {
       color:"none"
     }} to={`/room/${room._id}`}>
     <div className="card">
-      <img src="..." className="card-img-top" alt="..."/>
+      <img src="http://officesnapshots.com/wp-content/uploads/2016/01/fullscreen-office-design-6.jpg" className="card-img-top" alt="..."/>
       <div className="card-body">
         <h5 className="card-title">{room.name}</h5>
       </div>

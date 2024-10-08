@@ -14,6 +14,8 @@ export default function Chat({ roomId, user }) {
     }
   }, [socket, roomId]);
 
+  
+
   useEffect(() => {
     if (socket) {
       // Clean up any existing listener before adding a new one

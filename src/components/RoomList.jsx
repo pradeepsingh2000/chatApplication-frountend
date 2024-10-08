@@ -8,7 +8,6 @@ export default function RoomList({ roomId, user }) {
   useEffect(() => {
     if (socket) {
       socket.on('fetchList',() =>{
-        console.log("HIITT")
         ChatList()
       });
     }
